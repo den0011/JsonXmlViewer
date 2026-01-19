@@ -1,0 +1,35 @@
+{
+  "app": {
+    "name": "QCalendar To Do",
+    "version": "1.0.0",
+    "author": "Test User"
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "role": "administrator",
+      "active": true
+    },
+    {
+      "id": 2,
+      "username": "guest",
+      "role": "viewer",
+      "active": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": 101,
+      "title": "Create UI layout",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "id": 102,
+      "title": "Fix bugs",
+      "completed": true,
+      "priority": "medium"
+    }
+  ]
+}

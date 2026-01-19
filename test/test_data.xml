@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <app>
+    <name>QCalendar To Do</name>
+    <version>1.0.0</version>
+    <author>Test User</author>
+  </app>
+
+  <users>
+    <user>
+      <id>1</id>
+      <username>admin</username>
+      <role>administrator</role>
+      <active>true</active>
+    </user>
+    <user>
+      <id>2</id>
+      <username>guest</username>
+      <role>viewer</role>
+      <active>false</active>
+    </user>
+  </users>
+
+  <tasks>
+    <task>
+      <id>101</id>
+      <title>Create UI layout</title>
+      <completed>false</completed>
+      <priority>high</priority>
+    </task>
+    <task>
+      <id>102</id>
+      <title>Fix bugs</title>
+      <completed>true</completed>
+      <priority>medium</priority>
+    </task>
+  </tasks>
+</root>
